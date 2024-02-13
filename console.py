@@ -23,10 +23,14 @@ current_classes = {'BaseModel': BaseModel, 'User': User,
 
 class HBNBCommand(cmd.Cmd):
     """
-    Acts as both the command interpreter and central control hub for the project.
-    It defines function handlers for all commands entered through the console,
-    directing them to the appropriate storage engine APIs for manipulating application data.
-    By subclassing Python's `cmd.Cmd` class, it utilizes a simple framework tailored
+    Acts as both the command interpreter and central controll
+    hub for the project.
+    It defines function handlers for all commands
+    entered through the console,
+    directing them to the appropriate storage
+    engine APIs for manipulating application data.
+    By subclassing Python's `cmd.Cmd` class,
+    it utilizes a simple framework tailored
     for building line-oriented command interpreters.
     """
 
