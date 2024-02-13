@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """The `state` module.
 
-This module defines the `State` class, which is a subclass of the `BaseModel` class.
+This module defines the `State` class,
+which is a subclass of the `BaseModel` class.
 """
 from models.base_model import BaseModel
 

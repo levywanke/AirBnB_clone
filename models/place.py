@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """The `place` module.
 
-This module defines the `Place` class, which is a subclass of the `BaseModel` class.
+This module defines the `Place` class,
+which is a subclass of the `BaseModel` class.
 """
 from models.base_model import BaseModel
 
@@ -23,7 +24,8 @@ class Place(BaseModel):
         longitude: The longitude coordinate of the place/house location.
         latitude: The latitude coordinate of the place/house location.
         max_guest: The maximum number of guests allowed at the place/house.
-        amenity_ids: A list of IDs representing amenities available at the place/house.
+        amenity_ids: A list of IDs representing
+        amenities available at the place/house.
     """
 
     name = ""

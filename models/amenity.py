@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """The `amenity` module.
 
-This module defines the `Amenity` class, which is a 
+This module defines the `Amenity` class, which is a
 subclass of the `BaseModel` class.
 """
 from models.base_model import BaseModel
